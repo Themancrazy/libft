@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: anjansse <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/09/10 20:00:10 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/11 12:03:32 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,12 +51,16 @@ PRINTF		= ft_printf.c check.c handle.c keys.c main_check.c manage.c\
 			  parse.c manage_dsc.c manage_pf.c manage_uox.c ftoa.c ft_iitoa.c\
 			  ft_itoa_base.c pf_functions.c pf_functions2.c pf_functions3.c
 
+VECTOR		= vec_add.c vec_new.c vec_rotx.c vec_roty.c vec_rotz.c vec_sub.c\
+			  vec_scale.c vec_rotxyz.c
+
 FUNCTIONS	= $(IS) $(STRUCT) $(MEMORY) $(NUMBER) $(PRINT) $(STRING) $(CHAR)\
 			  $(READ_FILE)
 
 FILES		= $(addprefix srcs/, $(FUNCTIONS))\
 			  $(addprefix srcs/, $(addprefix gnl/, $(GNL)))\
-			  $(addprefix srcs/, $(addprefix printf/, $(PRINTF)))
+			  $(addprefix srcs/, $(addprefix printf/, $(PRINTF)))\
+			  $(addprefix srcs/, $(addprefix vector/, $(VECTOR)))
 
 OBJECTS		= $(FILES:.c=.o)
 

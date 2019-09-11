@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anjansse <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/26 22:16:13 by anjansse          #+#    #+#             */
-/*   Updated: 2019/09/10 19:59:39 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/10 22:15:15 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,10 +17,12 @@
 # include <sys/stat.h>
 # include <sys/mman.h>
 # include <fcntl.h>
+# include <math.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
 # include "get_next_line.h"
+# include "vec.h"
 # include "ft_printf.h"
 
 # define BOLD	"\x1b[1m"
