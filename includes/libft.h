@@ -6,7 +6,7 @@
 /*   By: anjansse <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/26 22:16:13 by anjansse          #+#    #+#             */
-/*   Updated: 2019/08/08 19:47:26 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/10 19:59:39 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ typedef struct		s_list
 
 int					get_next_line(int fd, char **line);
 int					read_file(char *filename, char **content);
+void				send_error(char *error);
 char				*ft_capitalize(char *s);
 char				*skip_ws(char *str);
 int					*ft_range(int start, int end);

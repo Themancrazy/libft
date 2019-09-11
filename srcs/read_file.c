@@ -6,7 +6,7 @@
 /*   By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/13 15:54:05 by anjansse          #+#    #+#             */
-/*   Updated: 2019/08/08 20:10:53 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/10 20:02:17 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int			read_file(char *filename, char **content)
 {
-	int		fd;
-	struct	stat st;
+	int				fd;
+	struct stat		st;
 
 	if (!(fd = open(filename, O_RDONLY)))
 		return (0);

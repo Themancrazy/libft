@@ -6,7 +6,7 @@
 #    By: anjansse <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/06/13 22:17:10 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/10 20:00:10 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,6 +30,7 @@ NUMBER		= ft_atoi.c ft_itoa.c
 
 PRINT		= ft_putchar_fd.c ft_putchar.c ft_putendl_fd.c ft_putendl.c\
 			  ft_putnbr_fd.c ft_putnbr.c ft_putstr_fd.c ft_putstr.c\
+			  send_error.c
 
 STRING		= ft_strcat.c ft_strchr.c ft_strclr.c ft_strcmp.c ft_strcpy.c\
 			  ft_strdel.c ft_strdup.c ft_strequ.c ft_striter.c ft_striteri.c\
