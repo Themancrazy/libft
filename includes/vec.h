@@ -1,14 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   vec.h                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: anjansse <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/11 12:15:05 by anjansse          #+#    #+#             */
+/*   Updated: 2019/09/11 12:15:37 by anjansse         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef VEC_H
 # define VEC_H
 
-#include "libft.h"
+# include "libft.h"
 
-typedef struct  s_vec
+/*
+** Angle to radian macro.
+*/
+
+# define ATR(a) (a * (PI / 180))
+
+typedef struct	s_vec
 {
 	double		x;
 	double		y;
 	double		z;
-}               t_vec;
+}				t_vec;
 
 t_vec			vec_new(double x, double y, double z);
 void			vec_add(t_vec *v1, t_vec *v2);
