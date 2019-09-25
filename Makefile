@@ -6,7 +6,7 @@
 #    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/09/24 18:03:36 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/24 18:26:17 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ STRING		= ft_strcat.c ft_strchr.c ft_strclr.c ft_strcmp.c ft_strcpy.c\
 			  ft_strnstr.c ft_strrchr.c ft_strsplit.c ft_strstr.c ft_strsub.c\
 			  ft_strtrim.c ft_swap.c ft_capitalize.c ft_iswhitespace.c\
 			  ft_range.c ft_strclen.c ft_strappend.c ft_strjoinfree.c\
-			  ft_strjoinfree1.c ft_strjoinfree2.c
+			  ft_strjoinfree1.c ft_strjoinfree2.c ft_array_len.c
 
 CHAR		= ft_tolower.c ft_toupper.c skip_ws.c
 
