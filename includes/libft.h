@@ -6,7 +6,7 @@
 /*   By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/26 22:16:13 by anjansse          #+#    #+#             */
-/*   Updated: 2019/09/24 22:49:03 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/25 12:48:13 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,6 +117,8 @@ int					ft_tolower(int c);
 int					ft_toupper(int c);
 void				ft_putnbr(int n);
 void				ft_putnbr_fd(int n, int fd);
+
+void				ft_free_db_tab(char **av);
 
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));

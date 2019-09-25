@@ -6,7 +6,7 @@
 #    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/09/24 22:48:49 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/25 12:48:45 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -25,7 +25,7 @@ STRUCT		= ft_lstadd.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c ft_lstmap.c\
 
 MEMORY		= ft_bzero.c ft_memalloc.c ft_memccpy.c ft_memcpy.c ft_memcmp.c\
 			  ft_memchr.c ft_memdel.c ft_memmove.c ft_memset.c \
-			  ft_memtransform.c
+			  ft_memtransform.c ft_free_db_tab.c
 
 NUMBER		= ft_atoi.c ft_itoa.c
 
