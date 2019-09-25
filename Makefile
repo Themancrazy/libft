@@ -6,7 +6,7 @@
 #    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/09/24 22:19:15 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/24 22:48:49 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ CFLAGS		= -Wall -Wextra -Werror
 INCLUDES	= -I includes/
 
 IS			= ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c\
-			  ft_strisnumber.c
+			  ft_verifstr.c
 
 STRUCT		= ft_lstadd.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c ft_lstmap.c\
 			  ft_lstnew.c
