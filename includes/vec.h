@@ -6,7 +6,7 @@
 /*   By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/11 12:15:05 by anjansse          #+#    #+#             */
-/*   Updated: 2019/09/24 18:03:17 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/28 19:47:14 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ t_vec			vec_new(double x, double y, double z);
 void			vec_add(t_vec *v1, t_vec *v2);
 void			vec_sub(t_vec *v1, t_vec *v2);
 void			vec_scale(t_vec *vec, double n);
-void		    vec_set(t_vec *v, double x, double y, double z);
+void			vec_set(t_vec *v, double x, double y, double z);
 
 void			vec_rotx(t_vec *vec, double angle);
 void			vec_roty(t_vec *vec, double angle);

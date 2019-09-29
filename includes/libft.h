@@ -6,7 +6,7 @@
 /*   By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/26 22:16:13 by anjansse          #+#    #+#             */
-/*   Updated: 2019/09/25 12:48:13 by anjansse         ###   ########.fr       */
+/*   Updated: 2019/09/28 19:45:33 by anjansse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <string.h>
+# include <pthread.h>
 # include "get_next_line.h"
 # include "vec.h"
 # include "ft_printf.h"

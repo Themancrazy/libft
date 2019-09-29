@@ -6,7 +6,7 @@
 #    By: anjansse <anjansse@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/29 09:51:04 by anjansse          #+#    #+#              #
-#    Updated: 2019/09/25 12:48:45 by anjansse         ###   ########.fr        #
+#    Updated: 2019/09/28 19:45:42 by anjansse         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -61,7 +61,7 @@ FUNCTIONS	= $(IS) $(STRUCT) $(MEMORY) $(NUMBER) $(PRINT) $(STRING) $(CHAR)\
 FILES		= $(addprefix srcs/, $(FUNCTIONS))\
 			  $(addprefix srcs/, $(addprefix gnl/, $(GNL)))\
 			  $(addprefix srcs/, $(addprefix printf/, $(PRINTF)))\
-			  $(addprefix srcs/, $(addprefix vector/, $(VECTOR)))
+			  $(addprefix srcs/, $(addprefix vector/, $(VECTOR)))\
 
 OBJECTS		= $(FILES:.c=.o)
 
